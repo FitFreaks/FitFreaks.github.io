@@ -1,0 +1,217 @@
+/*SETTING BODY C2A43B*/
+body {
+	margin :0px;
+	padding: 0px;
+	font-size: 100%;
+		
+}
+* {
+	box-sizing: border-box;
+}
+/*PARENT-SEC-CSS [!!--START--!!]*/
+.parent-sec{
+	background: url(couples1.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#navArea {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 10%;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	background: transparent;
+	transition: background 0.5s;
+	z-index: 9999;
+}
+#navArea .logo img {
+	height: 100px;
+	width: 200px;
+	transition: height 0.5s, width 0.5s;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+#navArea ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	width: 650px;
+	justify-content: space-around;
+	margin-top: 10px;			
+}
+#navArea ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 400;
+	transition: color 0.5s,background-color 0.5s,font-size 0.5s;
+   	text-align: center;
+  	padding: 14px 16px;
+   	font-size: 1.2em;
+   	font-family: montserrat,sans-serif;
+   	border-radius: 25px;
+}
+#navArea li a:hover {
+    background-color: #c59137;
+}
+#navArea.is-sticky {
+	background: rgb(0 0 0);
+}
+#navArea.is-sticky a {
+	font-size: 1em;
+}
+#navArea.is-sticky .logo img {
+	height:50px;
+	width: 100px;
+}
+.buttons{
+	background-color: transparent;
+    border-radius: 25px;
+    padding: 15px 32px;
+    display: inline-block;
+    margin: 4px 2px;
+    font-weight: 500;
+    font-family: montserrat;
+    cursor: pointer;
+}
+.btn-type-1{
+    border: 3px solid white;
+    color: white;
+    font-size: 1em;
+    transition:background-color 0.3s;
+}
+.btn-type-1:hover{
+	background-color: rgb(0 0 0 /80%);
+}
+.btn-type-2{
+    border: 3px solid black;
+    color: black;
+    font-size: 1em;
+    transition:background-color 0.3s, color 0.3s;
+}
+.btn-type-2:hover{
+	background-color: rgb(0 0 0 /90%);
+	color: white;
+}
+.head-quote-div {
+    text-align: center;
+    height: 100vh;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.heading{
+   	font-size: 6.5375em;	
+    font-family: Ubuntu, sans-serif;
+    font-weight: 700;
+   	margin-bottom: 0px;
+} 
+.quote{
+	font-size: 2em;
+   	font-family: Poppins, sans-serif;   
+} 	
+/*PARENT-SEC-CSS [!!--END--!!]*/
+
+/*FOOTER-SEC-CSS [!!--START--!!]*/
+footer {
+	background-color: rgb(0 0 0 / 96%);;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: 500px;
+
+}
+.footer-sec-1 {
+	height: 350px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.footer-sec-2{
+
+}
+.foot-div-1 , .foot-div-2, .foot-div-3 {
+	background-color: transparent;
+	width: 33.333% ;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;	
+}
+.foot-div-1 img{
+	 height: 125px;
+	 width:  250px;
+}
+.social-icon , .quick-links{
+	list-style-type: none;
+	padding: 0px;
+}
+.social-icon li {
+	display: inline-block;
+	font-size: 1.562em;
+	font-family: arial;
+   	border-radius: 25px;
+ 	margin-top: 25px;
+}
+.social-icon li a , #icon-tag , .ico-copy{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 300;
+	transition: color 0.5s,background-color 0.5s;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 1.5em;
+    border-radius: 25px;
+}
+.social-icon li a:hover:not(.active) {
+    background-color: #c59137;   
+    transition: 0.5s;
+}
+.foot-div-2{
+	color: #c59137;
+	font-size: 1.562em;
+	font-family: montserrat;
+}
+.contact-us{
+}
+.icon-tag{
+	text-decoration: none;
+	color: #c59137;
+}
+.foot-div-3{			
+}
+.quick-links{
+	font-size: 1.562em;
+	font-family: montserrat,arial,sans-serif;
+	display: flex;
+	flex-direction: column;	
+}
+.quick-links li{
+	padding: 5px;
+}
+.quick-links li a {
+	text-decoration: none;
+	color: #c59137;
+	font-weight: 300;
+	transition: border-bottom 4s;
+  	text-align: center;
+  	border-radius: 5px;
+}
+.quick-links li a:hover{
+	border-bottom: 1px solid white !important ;	
+}
+.footer-sec-div-2 {
+	
+	color: #fff;
+	font-family: montserrat;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 13px;
+	display: flex;
+    align-items: center;
+	justify-content: space-between;
+}
+/*FOOTER-SEC-CSS [!!--END--!!]
